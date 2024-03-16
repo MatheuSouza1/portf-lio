@@ -1,0 +1,20 @@
+<app-header/>
+
+<main>
+    <app-knowledge /> 
+    <!--<app-experiences />-->
+
+    @defer(on viewport){
+        <app-projects />
+    }
+    @placeholder(){
+        <section>
+            <h2>Carregando projetos...</h2>
+        </section>
+    }
+    @error(){
+        <section>
+            <h2>Não foi possivel carregar o componente, recarregue a página</h2>
+        </section>       
+    }
+</main>
