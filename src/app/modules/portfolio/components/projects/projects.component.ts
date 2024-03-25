@@ -22,7 +22,7 @@ export class ProjectsComponent {
       title: "Api menssagem",
       width: "160px",
       height: "80px",
-      description:"",
+      description:"Está é uma API Rest que registra mensagens em um banco de dados",
       links: [
         {
           name: "Api Menssagem",
